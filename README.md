@@ -1,5 +1,5 @@
 # Projeto_cybersec_VNW
-Repositório para as aulas do projeto CyberSec Vai na Web - Kensei
+Repositório com proposta técnica de rede corporativa segura — Projeto CyberSec Vai na Web
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/c0dfbf53-4519-4d87-8f32-67a1b201f116" />
 
@@ -29,7 +29,7 @@ Repositório para as aulas do projeto CyberSec Vai na Web - Kensei
 
 ## 1. Sumário Executivo
 
-Esta proposta apresenta uma estrutura de rede com foco em segurança básica, organização por setores e conectividade entre unidades.  
+Esta proposta apresenta uma estrutura de rede corporativa com foco em segurança essencial, segmentação por setores e conectividade segura entre unidades.
 A arquitetura utiliza segmentação por departamentos (VLANs), separação da rede de visitantes e acesso seguro entre os escritórios por meio de VPN.
 
 ---
@@ -53,12 +53,13 @@ Criar uma rede corporativa segura e funcional para atender às necessidades de c
 ## 4. Metodologia
 
 A proposta foi elaborada com base no briefing fornecido, seguindo boas práticas de arquitetura de redes.  
-Foram consideradas as necessidades por localidade, número de usuários, setores e serviços utilizados.  
+Foram consideradas as necessidades específicas de cada unidade (matriz e filiais), número de usuários por setor e os principais serviços utilizados.
 A proposta utiliza técnicas básicas de segurança como:
 
 - Segmentação por VLANs  
 - VPN  
-- Separação lógica entre redes corporativas e visitantes  
+- Separação lógica entre redes corporativas e visitantes
+- Autenticação: controle de acesso aos equipamentos de rede com autenticação local ou via servidor centralizado
 
 ---
 
@@ -85,9 +86,9 @@ A proposta utiliza técnicas básicas de segurança como:
 
 - Revisar periodicamente os acessos  
 - Manter backups das configurações da rede  
-- Utilizar senhas fortes e autenticação nos dispositivos  
-- Evitar compartilhamento de senhas entre setores  
-- Manter firmwares e softwares atualizados  
+- Proibir o compartilhamento de credenciais entre usuários ou setores
+- Manter firmwares e softwares atualizados
+- Utilizar senhas complexas e, se possível, autenticação multifator (MFA) nos dispositivos de rede 
 
 ---
 
@@ -104,7 +105,7 @@ A proposta utiliza técnicas básicas de segurança como:
 
 ## 9. Conclusão
 
-A proposta entrega uma estrutura de rede segura, simples e funcional, adequada ao tamanho e às necessidades da Mai Wolf S/A.  
+A proposta entrega uma estrutura de rede segura, simples e funcional, dimensionada conforme a estrutura organizacional e as demandas operacionais da Mai Wolf S/A.  
 Ela possibilita controle por departamento, acesso remoto seguro, melhor organização da rede, redução de riscos básicos de segurança e controles mínimos para **confidencialidade, integridade e disponibilidade**.
 
 ---
